@@ -1,0 +1,38 @@
+.userTable {
+  margin-top: 1rem;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: center;
+}
+.hispagination {
+  text-align: center;
+}
+
+.hisbuttonnxt,
+.hisbuttonpre {
+  background-color: #313131;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .hispagination {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hispagination {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hispagination {
+    margin-left: 4%;
+  }
+
+  .hisbuttonnxt,
+  .hisbuttonpre {
+    font-size: 0.875rem;
+  }
+}

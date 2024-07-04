@@ -1,0 +1,140 @@
+.login_container_user {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+}
+.right_collumn {
+  margin-top: 2rem;
+  border-radius: 15px;
+  background: url(../../assets/loginmain_bg.jpg);
+  background-size: cover;
+  width: 40%;
+}
+.login_google {
+  margin-top: 2rem;
+  width: 100%;
+  height: fit-content;
+  box-shadow: 0px 0px 10px 0px;
+  padding: 0.6rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: white;
+}
+.login_google:hover {
+  background-color: #313131;
+  border: none;
+  color: white;
+}
+.signin_form {
+  width: 70%;
+  margin: 5%;
+  margin-left: 10%;
+}
+
+.loginbg {
+  margin-left: 8%;
+  object-fit: cover;
+  height: auto;
+  max-width: 100%;
+  border-radius: 15px;
+}
+.left_collumn_lg {
+  width: 50%;
+  height: fit-content;
+  border-radius: 10px;
+}
+.TAlogo {
+  margin-left: 40%;
+  max-height: 130px;
+  max-height: 80px;
+  align-items: flex-start;
+}
+.google_logo {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form_title_lg {
+  text-align: center;
+  color: black;
+  font-size: 2.5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .loginbg {
+    height: auto;
+    max-width: 100%;
+    margin-left: 0px;
+  }
+  .form_title_lg {
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+  }
+
+  .TAlogo {
+    max-height: 40px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 576px) {
+  .login_container_user {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .right_collumn {
+    border-radius: 0.9375rem;
+    background: url(../../assets/loginmain_bg.jpg);
+    background-size: cover;
+    width: 100%;
+    margin-left: 0;
+  }
+  .left_collumn_lg {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .loginbg {
+    height: 22rem;
+  }
+
+  .form_title_lg {
+    text-align: center;
+    color: black;
+    font-size: 1.8rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+  }
+
+  .TAlogo {
+    width: 20%;
+    max-height: 50px;
+    align-items: flex-start;
+  }
+  .login_container {
+    padding: 0rem;
+    margin-left: 5%;
+  }
+  .login_google {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    border: none;
+    box-shadow: 0px 0px 10px 0px;
+  }
+}

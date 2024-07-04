@@ -1,0 +1,38 @@
+.add-desk-form-heading {
+  font-family: "Lato", sans-serif;
+  color: #333333;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 22px;
+  float: left;
+}
+.modal-container {
+  width: 95%;
+  margin: auto;
+}
+.form-element-container {
+  display: flex;
+  box-sizing: border-box;
+  margin: 1px 0;
+  padding: 4px 0 4px 15px;
+  position: relative;
+  width: 100%;
+}
+.form-title-lable {
+  font-family: "Lato", sans-serif;
+  float: left;
+  padding: 5px 0 0;
+  position: relative;
+  width: 170px;
+  color: #6b778c;
+  font-size: 18px;
+  font-weight: 500;
+}
+.size-suggestion {
+  font-family: "Lato", sans-serif;
+  color: #6b778c;
+  font-size: 14px;
+  margin-left: 15px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}

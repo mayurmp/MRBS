@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+.Dashbord {
+  background-color: white;
+  width: 82%;
+  margin-top: 20px;
+  height: auto;
+  position: relative;
+  margin-right: 20px;
+}
+
+.AdminSidebarMain {
+  display: flex;
+  width: 18%;
+}
+.techtxt1 {
+  font-size: 4rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  margin-left: 3rem;
+}
+.dash_main {
+  height: 30rem;
+  width: 30rem;
+  margin: 15rem 0rem 0rem 25rem;
+}
+.dash_logo {
+  height: 20rem;
+  width: 20rem;
+  margin-left: 3rem;
+}
+.com_name {
+  height: 10rem;
+  width: 30rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.AdminRoomDetails {
+  padding: 2.5rem;
+}
+
+#AdminAddRooms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 82%;
+  margin-top: 20px;
+  height: 100vh;
+  position: relative;
+  margin-right: 20px;
+}
+
+.toast_container {
+  height: 200px;
+  width: 500px;
+  backdrop-filter: blur(4px);
+  text-align: center;
+  font-size: 30px;
+  margin: 50px 100px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .Dashbord {
+    width: 100%;
+    margin: 10px;
+    height: auto;
+  }
+
+  .toast_container {
+    width: 100%;
+    margin: 20px 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Dashbord {
+    padding: 1rem;
+    height: auto;
+  }
+
+  .AdminRoomDetails {
+    padding: 1.5rem;
+  }
+
+  .toast_container {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .AdminSidebar {
+    background-color: white;
+    padding: 1rem;
+    margin: 20px;
+    margin-right: 0px;
+    height: auto;
+    border: 2px solid #774181;
+    border-radius: 15px;
+    position: relative;
+  }
+  li {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 1rem;
+  }
+  .AdminSidebar .link_name li .linkaa {
+    font-size: 20px;
+  }
+}

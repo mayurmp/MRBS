@@ -1,0 +1,174 @@
+.currentStatus::-webkit-scrollbar {
+  width: 5px;
+  margin: 0;
+}
+
+.currentStatus::-webkit-scrollbar-track {
+  background: #7741811d;
+  height: 4px;
+  margin: 0;
+}
+.currentStatus::-webkit-scrollbar-thumb {
+  background: #774181;
+  height: 3px;
+}
+
+#edit:hover {
+  color: #774181;
+}
+
+.Hovicon:hover {
+  color: #774181;
+}
+
+.line {
+  border: 1px solid #495057;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.me-2 {
+  padding: 0px;
+  background-color: transparent;
+  font-size: 1rem;
+  color: green;
+  font-weight: 700;
+  top: 30px;
+  height: fit-content;
+  position: absolute;
+  right: 15px;
+  margin: -13px;
+  cursor: pointer;
+}
+.ofcanvasTitle {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+hr {
+  border-bottom: 2px solid black;
+}
+
+
+
+@media (max-width: 920px) {
+  .multiSelectContainer li {
+    padding: 0px;
+    font-size: 10px;
+  }
+  .chip {
+    align-items: center;
+    background: #0096fb;
+    border-radius: 11px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 9px;
+    line-height: 19px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 4px 10px;
+  }
+  .me-2 {
+    color: green;
+    font-weight: 700;
+    top: 26px;
+    font-size: 14px;
+    height: -moz-fit-content;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .currentStatus::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .currentStatus::-webkit-scrollbar-track {
+    background: #7741811d;
+    height: 4px;
+  }
+  .currentStatus::-webkit-scrollbar-thumb {
+    background: #774181;
+    height: 3px;
+  }
+
+  .ofcanvasTitle {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  hr {
+    border-bottom: 2px solid black;
+  }
+
+}
+@media (max-width: 480px) {
+  .multiSelectContainer li {
+    padding: 0px;
+    font-size: 10px;
+  }
+  .chip {
+    align-items: center;
+    background: #0096fb;
+    border-radius: 11px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 9px;
+    line-height: 19px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 4px 10px;
+  }
+  .me-2 {
+    color: green;
+    font-weight: 700;
+    top: 26px;
+    font-size: 14px;
+    height: -moz-fit-content;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .currentStatus::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .currentStatus::-webkit-scrollbar-track {
+    background: #7741811d;
+    height: 4px;
+  }
+  .currentStatus::-webkit-scrollbar-thumb {
+    background: #774181;
+    height: 3px;
+  }
+
+  .ofcanvasTitle {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  hr {
+    border-bottom: 2px solid black;
+  }
+
+ 
+}
+
+@media (max-width: 320px) {
+  .me-2 {
+    color: #774181;
+    top: 21px;
+    font-size: 10px;
+    height: -moz-fit-content;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .ofcanvasTitle {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  hr {
+    border-bottom: 2px solid black;
+  }
+}

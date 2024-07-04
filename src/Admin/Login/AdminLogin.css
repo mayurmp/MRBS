@@ -1,0 +1,103 @@
+.login_google_ad {
+  margin-top: 2rem;
+  padding: 0.8rem 3.5rem;
+  font-size: 1.5rem;
+  border: none;
+  box-shadow: 0px 0px 10px 0px;
+}
+.login_google_ad:hover {
+  background-color: #313131;
+  border: none;
+  color: white;
+}
+.login_container_ad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 2rem;
+  margin: 5rem 0rem 0rem 25%;
+}
+
+.TAlogo_ad {
+  max-height: 80px;
+  margin-left: 40%;
+}
+.signin_form_ad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 5%;
+  margin-left: 10%;
+}
+.form_title_ad {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.form_title2_ad {
+  text-align: center;
+  color: rgb(52, 52, 52);
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .login_container_ad {
+    width: 80%;
+    margin: 5rem auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .login_container_ad {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .form_title_ad {
+    font-size: 2rem;
+  }
+  .form_title2_ad {
+    font-size: 1rem;
+  }
+  .TAlogo_ad {
+    max-height: 60px;
+  }
+
+  .login_google_ad {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .signin_form_ad {
+    width: 80%;
+    margin: 0;
+  }
+
+  .login_container_ad {
+    width: 100%;
+    padding: 2rem 1rem;
+    margin: 5% auto;
+  }
+
+  .form_title_ad {
+    font-size: 1rem;
+  }
+  .form_title2_ad {
+    font-size: 0.8rem;
+  }
+  .TAlogo_ad {
+    max-height: 80px;
+    margin-left: 0;
+  }
+
+  .login_google_ad {
+    font-size: 1rem;
+  }
+}
